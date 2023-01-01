@@ -1,0 +1,22 @@
+@media only screen and (max-width:768px) { 
+  #nav-bar .container ul{
+    display: inline-block;
+  }/*đặt ul thành inline-block*/
+
+  #nav-bar .container a{
+    padding: 0;
+  }/*bỏ padding khi ở màn mobile*/
+
+  .list-none{ /*bỏ padding trên màn đt*/
+    padding-left:0px ;    
+}
+
+  .border-lg-start{ /*bỏ bodder*/
+  border-left:  0px solid  #ffffff;
+}
+
+  .border-md-bottom{ /*thêm border bottom*/
+    border-bottom: 1px solid;
+  }
+
+}

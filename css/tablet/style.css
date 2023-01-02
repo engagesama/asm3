@@ -1,0 +1,20 @@
+@media only screen and (min-width:768px) { 
+
+.border-md-bottom{ /*thêm border bottom*/
+  border-bottom: 1px solid;
+}
+.border-lg-start{ /*bỏ bodder*/
+  border-left:  1px solid ;
+}
+.h-111{/*lớp h111 tạo chiều cao*/
+  height: 122px;
+}
+.h-112{/*lớp h112 tạo chiều cao*/
+  height: 75px;
+}
+  
+}
+@media only screen and (max-width:992px) { 
+  .d-none-md{display: none;}/*ẩn lớp d-none-md*/
+
+}
